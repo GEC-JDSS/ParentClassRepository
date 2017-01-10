@@ -6,6 +6,7 @@
 public class ParentClass {
 	private String name; // holds name of parent object
 	private int age;	 // holds age of parent object
+   private double income; // adding income field for parent
 	
 	public String getName() {
 		return name;
@@ -19,6 +20,13 @@ public class ParentClass {
 	public void setAge(int age) {
 		this.age = age;
 	}
+   public void setIncome(double income){
+      this.income = income;
+   }
+   
+   public double getIncome()  {
+      return income;
+   }
 	
 	
 
